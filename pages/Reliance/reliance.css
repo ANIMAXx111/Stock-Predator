@@ -1,0 +1,107 @@
+*{
+    text-decoration: none;
+    outline: none;
+  }
+  body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    background: linear-gradient(180deg, #0b0d2c 0%, #1a1b41 100%);
+    color: white;
+    text-align: center;
+}
+ 
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #0b0d2c;
+  }
+  .navbar .logo {
+    display: flex;
+    align-items: center;
+  }
+  .navbar .logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  .navbar .nav-links {
+    display: flex;
+    gap: 30px;
+  }
+  .navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .navbar .nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .navbar .nav-actions select, .navbar .nav-actions button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .navbar .nav-actions button {
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+  }
+  .navbar .nav-actions button:hover {
+    background-color: white;
+    color: #0b0d2c;
+  }
+  .hero {
+    text-align: center;
+    padding: 100px 20px;
+  }
+  .hero h1 {
+    font-size: 48px;
+    margin: 0;
+  }
+  .hero p {
+    font-size: 18px;
+    margin: 10px 0 30px;
+  }
+  .content {
+    padding: 50px 20px;
+}
+.content img {
+    height: 50px;
+}
+.content h1 {
+    font-size: 36px;
+    margin: 20px 0;
+}
+.chart img {
+  width: 700px;
+  height: 300px;
+}
+.table {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+}
+.table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.table table, .table th, .table td {
+    border: 1px solid #444;
+}
+
+.table th, .table td {
+    padding: 10px;
+}
+.footer {
+    padding: 20px;
+    border-top: 1px solid #444;
+}
