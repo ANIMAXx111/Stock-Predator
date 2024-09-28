@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market Live News</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- AOS Library CSS for animations -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="news.css">
+</head>
+<body>
+
+    <header class="header" data-aos="fade-down">
+        <h1>Live Stock Market News</h1>
+        <p>Stay updated with the latest trends and insights from the stock market.</p>
+    </header>
+
+    <main class="news-section" id="news-section">
+        <!-- News articles will be dynamically loaded here -->
+    </main>
+
+    <!-- Modal for displaying full news content -->
+    <div id="news-modal" class="modal">
+        <div class="modal-content" data-aos="zoom-in">
+            <span class="close">&times;</span>
+            <div id="modal-article"></div>
+        </div>
+    </div>
+
+    <!-- AOS Library Script for animations -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="news.js"></script>
+</body>
+</html>
